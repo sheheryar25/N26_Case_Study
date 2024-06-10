@@ -1,0 +1,12 @@
+<template>
+    <lightning-card title="Product Information">
+        <template if:true={productInfo}>
+            <div class="slds-p-horizontal_small">
+                <p>{productInfo}</p>
+            </div>
+        </template>
+        <template if:true={error}>
+            <p>{error}</p>
+        </template>
+    </lightning-card>
+</template>
