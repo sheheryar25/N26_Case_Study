@@ -1,7 +1,7 @@
 import { LightningElement,api,wire } from 'lwc';
 import { getRecord } from 'lightning/uiRecordApi';
 import getProductInformation from '@salesforce/apex/CC_ProductInformation.getProductInformation';
-
+const CONTACT_FIELDS = ['Contact.Product__c', 'Contact.Home_Country__c'];
 export default class LwcCustomerInformation extends LightningElement {
     @api recordId;
     productInfo;
