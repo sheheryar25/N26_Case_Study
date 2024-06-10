@@ -1,18 +1,33 @@
-# Salesforce DX Project: Next Steps
+Following is the metadata for this case study
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+Lightning Web Component:
+ - lwcCustomerInformation
 
-## How Do You Plan to Deploy Your Changes?
+Apex Class:
+ - CC_ContactCostAPI
+ - CC_ContactDataAPI
+ - CC_ProductInformation
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+Flexi Page:
+ - Case Record Page
 
-## Configure Your Salesforce DX Project
+Custom Object
+ - Contact Cost Info
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
+Custom Metadata Type
+ - Product Information
 
-## Read All About It
+Custom Fields
+ - Contact.Home_Country__c
+ - Contact.Product__c
+ - Contact.Subscription_Type__c
+ - Contact.UUID__c
+ - ContactCostInfo__c.ATM_Fee__c
+ - ContactCostInfo__c.Card_Replacement_Cost__c
+ - ContactCostInfo__c.Cost_Per_Month__c
+ - ContactCostInfo__c.Country__c
+ - ContactCostInfo__c.Subscription_Type__c
+ - Product_Information__mdt.Home_Country__c
+ - Product_Information__mdt.Product__c
+ - Product_Information__mdt.Product_Information__c
 
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
